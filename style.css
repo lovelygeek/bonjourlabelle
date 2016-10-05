@@ -1,0 +1,100 @@
+/*
+Theme Name: Marilyn Monroe
+Version: 1
+Theme URI: http://cassenza.com
+Description: A layout feauting Marilyn Monroe.
+Author: Cristina Assenza
+
+*/
+
+/* ----------- Main Body ----------- */
+
+body {
+background:none; 
+font: 70%/160% Georgia, Arial, Helvetica, sans-serif;
+margin:0;
+padding:0;
+text-align:center;
+ }
+ 
+a:link, a:visited, a:active {
+color: #70363F;
+border-bottom:1px dotted #70363F;
+text-decoration: none; 
+}
+
+a:hover {
+color: #000000;
+text-decoration: none; 
+}
+ 
+ input, option, select, textarea  {
+border: 1px solid #000000;
+background: #fff;
+color: #000;
+}
+
+#container {
+background: url(images/bg_repeat.jpg) repeat-y top center;
+margin: 0 auto;
+text-align: left;
+width:600px;
+}
+
+/* ----------- Header ----------- */
+
+#header {
+background: url("images/header.jpg") no-repeat top left;
+margin:0px 0px 0px 0px;
+padding:0;
+width:600px; 
+height:300px;
+}
+
+/* ----------- Navigation ----------- */
+
+a.navbar, a.navbar:link, a.navbar:visited {
+color: #FFF;
+text-decoration: none;
+cursor: help; 
+}
+	
+a.navbar:hover {
+color: #000;
+text-decoration: none;
+cursor: help;
+}
+
+h1 {	
+font: 80%/160% Georgia, Arial, Helvetica, sans-serif;
+background:#70363F;
+color: #FFFFFF;
+margin: 10px 0px 10px 0px;
+border: 1px solid #70363F;
+text-align:right;
+letter-spacing: 2px;
+text-transform: uppercase;
+}
+
+/* ----------- Content ----------- */
+
+h2 {	
+font: 80%/160% Georgia, Arial, Helvetica, sans-serif;
+background:#70363F;
+color: #fff;
+margin: 10px 0px 10px 0px;
+border: 1px solid #70363F;
+letter-spacing: 2px;
+text-align:center;
+}
+
+/* ----------- Footer ----------- */
+
+#footer {
+margin:0;
+padding:0;
+clear: both;
+text-align: right; 
+width:600px; 
+height:50px;
+}
